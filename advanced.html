@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Advanced Search</title>
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: black;
+    }
+
+    .main {
+      margin: 100px;
+    }
+
+    .field {
+      margin-bottom: 15px;
+    }
+
+    input[type="text"] {
+      width: 400px;
+      padding: 8px;
+    }
+
+    .btn {
+      background: #4d90fe;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    .logo {
+      font-size: 32px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="nav">
+    <div class="logo">
+      <span style="color: #0b57d0;">G</span><span style="color: red;">o</span><span style="color: yellow;">o</span><span
+        style="color: #0b57d0;">g</span><span style="color: green;">l</span><span style="color: red;">e</span>
+    </div>
+    <div>
+      <a href="index.html">Google Search</a>
+      <a href="image.html">Image Search</a>
+
+    </div>
+  </div>
+
+  <div class="main">
+    <form action="https://www.google.com/search">
+
+      <div class="field">
+        all these words: <br>
+        <input type="text" name="as_q">
+      </div>
+
+      <div class="field">
+        this exact word or phrase: <br>
+        <input type="text" name="as_epq">
+      </div>
+
+      <div class="field">
+        any of these words: <br>
+        <input type="text" name="as_oq">
+      </div>
+
+      <div class="field">
+        none of these words: <br>
+        <input type="text" name="as_eq">
+      </div>
+
+      <input class="btn" type="submit" value="Advanced Search">
+
+    </form>
+  </div>
+
+</body>
+
+</html>
