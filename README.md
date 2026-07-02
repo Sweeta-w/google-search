@@ -87,6 +87,8 @@ LinkedIn: https://www.linkedin.com/in/sweeta-k-7103972a6/
 
 GitHub:https://github.com/Sweeta-w
 
+Live Page: https://sweeta-w.github.io/google-search/
+
 ## 📄 License
 
 This project is created for educational purposes.
