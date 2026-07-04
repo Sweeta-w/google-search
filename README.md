@@ -1,4 +1,4 @@
-# Google Search Clone
+# Educational Google Search Clone
 
 A responsive front-end clone of the Google Search homepage built using **HTML** and **CSS**. This project recreates the basic Google Search interface with navigation links, a search bar, and search buttons while maintaining a clean and responsive layout.
 
